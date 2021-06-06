@@ -1,0 +1,39 @@
+/*Elements within <nav> tag:*/
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: silver;
+}
+
+
+/*Class of each element to make up a row in #weather_table:*/
+.wt_row {
+    display: table-row;
+}
+.wt_row > * {
+    display: table-cell;
+    vertical-align: middle;
+}
+.wt_row > *:first-child{
+    text-align: right;
+}
+.wt_row > *:nth-child(2){
+    padding: 20px;
+}
+
+/*ID for the image above the table:*/
+.body_pic {
+    margin-left: 0px;
+}
+.body_pic img{
+    height: 350px;
+}
+
+/*ID for the section element to contain city weather links based on continents:*/
+#weather_table{
+    display: table;
+}
